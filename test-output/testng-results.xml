@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-08T11:18:18 MESZ" name="Default suite" finished-at="2024-10-08T11:18:18 MESZ" duration-ms="155">
+  <suite started-at="2024-10-08T11:31:03 MESZ" name="Default suite" finished-at="2024-10-08T11:31:03 MESZ" duration-ms="86">
     <groups>
     </groups>
-    <test started-at="2024-10-08T11:18:18 MESZ" name="Default test" finished-at="2024-10-08T11:18:18 MESZ" duration-ms="155">
-      <class name="formsTesting.CircleTest">
-        <test-method signature="testCalculateArea()[pri:0, instance:formsTesting.CircleTest@2f8dad04]" started-at="2024-10-08T11:18:18 MESZ" name="testCalculateArea" finished-at="2024-10-08T11:18:18 MESZ" duration-ms="16" status="PASS">
+    <test started-at="2024-10-08T11:31:03 MESZ" name="Default test" finished-at="2024-10-08T11:31:03 MESZ" duration-ms="86">
+      <class name="formsTesting.RectangleTest">
+        <test-method signature="testCalculateArea()[pri:0, instance:formsTesting.RectangleTest@2f8dad04]" started-at="2024-10-08T11:31:03 MESZ" name="testCalculateArea" finished-at="2024-10-08T11:31:03 MESZ" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCalculateArea -->
-        <test-method signature="testCalculateCircumference()[pri:0, instance:formsTesting.CircleTest@2f8dad04]" started-at="2024-10-08T11:18:18 MESZ" name="testCalculateCircumference" finished-at="2024-10-08T11:18:18 MESZ" duration-ms="5" status="PASS">
+        <test-method signature="testCalculateCircumference()[pri:0, instance:formsTesting.RectangleTest@2f8dad04]" started-at="2024-10-08T11:31:03 MESZ" name="testCalculateCircumference" finished-at="2024-10-08T11:31:03 MESZ" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCalculateCircumference -->
-        <test-method signature="testToString()[pri:0, instance:formsTesting.CircleTest@2f8dad04]" started-at="2024-10-08T11:18:18 MESZ" name="testToString" finished-at="2024-10-08T11:18:18 MESZ" duration-ms="8" status="PASS">
+        <test-method signature="testToString()[pri:0, instance:formsTesting.RectangleTest@2f8dad04]" started-at="2024-10-08T11:31:03 MESZ" name="testToString" finished-at="2024-10-08T11:31:03 MESZ" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testToString -->
-      </class> <!-- formsTesting.CircleTest -->
+      </class> <!-- formsTesting.RectangleTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
