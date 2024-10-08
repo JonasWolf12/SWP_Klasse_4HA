@@ -2,20 +2,38 @@ package formsTesting;
 
 public class Square extends Form {
 	
-	private Rectangle rectangle;
-	
+	private Square square;
+	private double width;
 	public Square(double x, double y, double width) {
 		super(x, y);
-		rectangle = new Rectangle(x,y,width,3*width);
+		square = new Square(x,y,width);
+	}
+	
+	
+
+	public Square getSquare() {
+		return square;
 	}
 
-	public Rectangle getRectangle() {
-		return rectangle;
+
+
+	public void setSquare(Square square) {
+		this.square = square;
 	}
 
-	public void setRectangle(Rectangle rectangle) {
-		this.rectangle = rectangle;
+
+
+	public double getWidth() {
+		return width;
 	}
+
+
+
+	public void setWidth(double width) {
+		this.width = width;
+	}
+
+
 
 	public double calculateArea() {
 		return this.rectangle.calculateArea();
