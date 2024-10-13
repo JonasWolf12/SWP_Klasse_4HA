@@ -8,8 +8,25 @@ public class SquareTest {
 	
 	@Test
 	public void testCalculateArea() {
-		  Rectangle r = new Rectangle (2,2,4,3);
-		  double result = r.calculateArea();
-		  Assert.assertEquals(result, 4*3);
+		  Square s = new Square (2,2,4);
+		  double result = s.calculateArea();
+		  Assert.assertEquals(result, 4*4);
+	}
+	
+	
+	@Test
+	public void testCalculateCircumference() {
+		  Square s = new Square (2,2,4);
+		  double result = s.calculateCircumference();
+		  Assert.assertEquals(result, 4*2);
+	}
+	
+	
+	@Test
+	public void testToString() {
+		  Square s = new Square (1,2,3);
+		  String result = s.toString();
+		  Assert.assertEquals(result, "Square (" + 1.0 + "|" + 2.0 + ") with width = "
+					+ 3.0 );
 	}
 }
