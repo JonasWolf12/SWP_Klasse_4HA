@@ -36,16 +36,16 @@ public class Square extends Form {
 
 
 	public double calculateArea() {
-		return this.rectangle.calculateArea();
+		return this.width*this.width;
 	}
 
 	public double calculateCircumference() {
-		return this.rectangle.calculateCircumference();
+		return this.width*4;
 	}
 	
 	public String toString() {
 		return "Square (" + this.getX() + "|" + this.getY() + ") with width = " 
-					+ this.rectangle.getWidth();
+					+ this.getWidth();
 	}
 	
 
