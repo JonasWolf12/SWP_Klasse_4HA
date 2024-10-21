@@ -2,26 +2,12 @@ package formsTesting;
 
 public class Square extends Form {
 	
-	private Square square;
 	private double width;
 	public Square(double x, double y, double width) {
 		super(x, y);
-		square = new Square(x,y,width);
+		this.width = width;
 	}
 	
-	
-
-	public Square getSquare() {
-		return square;
-	}
-
-
-
-	public void setSquare(Square square) {
-		this.square = square;
-	}
-
-
 
 	public double getWidth() {
 		return width;
