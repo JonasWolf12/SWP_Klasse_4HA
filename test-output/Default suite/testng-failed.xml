@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="formsTesting.GroupTest">
+      <class name="testNG.CalculationTest">
         <methods>
-          <include name="testcalculateArea"/>
-          <include name="testcalculateCircumference"/>
+          <include name="testReverseWord"/>
         </methods>
-      </class> <!-- formsTesting.GroupTest -->
+      </class> <!-- testNG.CalculationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
