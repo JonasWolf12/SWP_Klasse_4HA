@@ -48,12 +48,13 @@ public class Group {
 	 * @return the sum of the circumferences
 	 */
 	public double calculateCircumference() {
-		double sum = 1;
-		for(Form f : this.forms) {
-			sum += f.calculateCircumference();
-		}
-		return sum;
+	    double sum = 0;
+	    for(Form f : this.forms) {
+	        sum += f.calculateCircumference();
+	    }
+	    return sum;
 	}
+
 	
 	/**
 	 * Prints all the forms on the console (text not image).
@@ -70,9 +71,14 @@ public class Group {
 	 * @return form with biggest area
 	 */
 	public Form findBiggestForm() {
-		Form form = this.forms.get(0);
-		
-		return form;
-	}
+	    Form biggestForm = this.forms.get(0);
 
+	    for (Form form : this.forms) {
+	        if (form.calculateArea() > biggestForm.calculateArea()) {
+	            biggestForm = form;
+	        }
+	    }
+
+	    return biggestForm;
+	}
 }
