@@ -18,7 +18,7 @@ public class SquareTest {
 	public void testCalculateCircumference() {
 		  Square s = new Square (2,2,4);
 		  double result = s.calculateCircumference();
-		  Assert.assertEquals(result, 4*2);
+		  Assert.assertEquals(result, 4*4);
 	}
 	
 	
